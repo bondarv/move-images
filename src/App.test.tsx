@@ -14,3 +14,11 @@ test('renders next button color', () => {
   fireEvent.click(button);
   expect(button).toHaveStyle(`background-color: ${COLORS[1]}`);
 });
+
+test('should render first button color in the end', () => {
+  render(<App />);
+  const button = screen.getByText('Move images');
+  expect(button).toHaveStyle(`background-color: ${COLORS[0]}`);
+  COLORS.forEach(() => fireEvent.click(button));
+  expect(button).toHaveStyle(`background-color: ${COLORS[0]}`);
+});
