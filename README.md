@@ -1,6 +1,4 @@
-## Task
-
-Header and Footer should be sticky. Each block should have a background image. There should be a button in the centre of the Body, when you press it all pictures should move randomly across blocks, and the button should also change its own colour. As background, you should use 5 pictures. Described above button should have the possibility of auto click every 0.52 minutes. Screen resolutions 1400\*900.
+![alt text](task.png 'Task')
 
 # Getting Started with Create React App
 
